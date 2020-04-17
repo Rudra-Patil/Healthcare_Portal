@@ -4,12 +4,17 @@ This is a demo project to elaborate how Machine Learn Models are deployed on pro
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
-### Project Structure
-This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+### FORMAT
+
+MAKE SURE THAT THE FILES IN YOUR DEPLOYMENT FOLDER ARE IN THE SAME MANNER AS IN MY DEPLOMENT FOLDER                
+[ Because if files in that order and format FLASK can understand where to Look for them .]
+
+HTMLS FOLDER SHOULD BE KEPT IN THE DEFAULT DIRECTORY OF YOUR SERVER APPLICATION FORM WHICH IS WILL ACCESS IT.
+
+Note -                                                                                                                     
+       INSTALL FLASK FIRST USING pip command                                                                            
+       TO CREATE A NEW PROJECT FOLLOW  - https://www.jetbrains.com/help/pycharm/creating-flask-project.html            
+       INSTALL ALL THE REQUIRED MODULES FOR APPLYING ML ALGORITHMS FIRST
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
